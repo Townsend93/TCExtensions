@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TCExtensions_Example' do
+  pod 'TCExtensions', :path => '../'
+
+  target 'TCExtensions_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
