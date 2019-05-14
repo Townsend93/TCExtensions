@@ -1,0 +1,6 @@
+framework module TCExtensions {
+  umbrella header "TCExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
